@@ -128,6 +128,27 @@ campus-kitchen/
 3. **开发环境**：建议使用微信开发者工具进行开发和调试
 4. **生产环境**：部署到生产环境前，请修改数据库连接信息和密钥
 
+## 项目截图
+
+### 登录页面
+
+![登录页面](screenshots/login_page.png)
+
+### 首页
+
+![首页](screenshots/home_page.png)
+
+### 厨房列表
+
+![厨房列表](screenshots/kitchen_list_page.png)
+
+### 我的预订
+
+![我的预订](screenshots/my_reservations_page.png)
+
+### 未登录个人中心
+
+![未登录个人中心](screenshots/profile_unlogged_page.png)
 
 ## 联系方式
 
