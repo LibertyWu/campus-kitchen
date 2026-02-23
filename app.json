@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/login/login",
+    "pages/login/register",
+    "pages/kitchen/list",
+    "pages/kitchen/reserve",
+    "pages/kitchen/my-reserve",
+    "pages/food/list",
+    "pages/food/my-order"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "校园共享厨房",
+    "navigationBarTextStyle": "black"
+  }
+}

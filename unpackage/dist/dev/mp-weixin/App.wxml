@@ -1,0 +1,1 @@
+<view class="app-container"><slot></slot></view>

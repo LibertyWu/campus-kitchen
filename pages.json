@@ -1,0 +1,4 @@
+{
+  "pages": ["pages/index/index"],
+  "globalStyle": {"navigationBarTitleText":"校园共享厨房"}
+}

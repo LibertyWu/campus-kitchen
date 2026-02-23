@@ -1,0 +1,11 @@
+{
+  "name": "campus-kitchen",
+  "version": "1.0.0",
+  "description": "校园共享厨房小程序",
+  "main": "main.js",
+  "scripts": {
+    "dev:mp-weixin": "uni-app dev:mp-weixin",
+    "build:mp-weixin": "uni-app build:mp-weixin"
+  },
+  "dependencies": {}
+}

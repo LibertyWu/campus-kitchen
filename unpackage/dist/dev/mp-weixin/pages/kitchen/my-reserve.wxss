@@ -1,0 +1,228 @@
+
+.container.data-v-30560c86 {
+  background-color: var(--color-bg);
+  min-height: 100vh;
+  padding-bottom: 100rpx;
+}
+
+/* 页面标题 */
+.page-header.data-v-30560c86 {
+  background-color: #FFFFFF;
+  padding: 30rpx;
+  border-bottom: 1rpx solid var(--color-border);
+}
+.page-title.data-v-30560c86 {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: var(--color-text-primary);
+}
+
+/* 订单状态分类 */
+.status-tabs.data-v-30560c86 {
+  display: flex;
+  background-color: #FFFFFF;
+  padding: 0 30rpx;
+  gap: 20rpx;
+  border-bottom: 1rpx solid var(--color-border);
+}
+.status-tab.data-v-30560c86 {
+  padding: 20rpx 0;
+  font-size: 24rpx;
+  color: var(--color-text-secondary);
+  position: relative;
+  transition: all 0.3s;
+}
+.status-tab.active.data-v-30560c86 {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+.status-tab.active.data-v-30560c86::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4rpx;
+  background-color: var(--color-primary);
+  border-radius: 2rpx;
+}
+
+/* 预约列表 */
+.reserve-list.data-v-30560c86 {
+  padding: 30rpx;
+  display: flex;
+  flex-direction: column;
+  gap: 25rpx;
+}
+
+/* 预约卡片 */
+.reserve-card.data-v-30560c86 {
+  background-color: #FFFFFF;
+  border-radius: 15rpx;
+  padding: 30rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+.reserve-card.data-v-30560c86:active {
+  transform: scale(0.98);
+}
+
+/* 预约卡片头部 */
+.reserve-header.data-v-30560c86 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20rpx;
+}
+.reserve-status.data-v-30560c86 {
+  display: flex;
+  align-items: center;
+  gap: 10rpx;
+}
+.status-badge.data-v-30560c86 {
+  padding: 6rpx 12rpx;
+  border-radius: 10rpx;
+  font-size: 18rpx;
+  font-weight: bold;
+}
+.status-badge.pending.data-v-30560c86 {
+  background-color: #E8F5E8;
+  color: #4CAF50;
+}
+.status-badge.completed.data-v-30560c86 {
+  background-color: #F5F5F5;
+  color: var(--color-text-secondary);
+}
+.reserve-time.data-v-30560c86 {
+  font-size: 20rpx;
+  color: var(--color-text-secondary);
+}
+.time-left.data-v-30560c86 {
+  font-size: 20rpx;
+  font-weight: bold;
+  color: #F44336;
+  background-color: #FFEBEE;
+  padding: 6rpx 12rpx;
+  border-radius: 10rpx;
+}
+
+/* 预约卡片内容 */
+.reserve-title.data-v-30560c86 {
+  font-size: 26rpx;
+  font-weight: bold;
+  color: var(--color-text-primary);
+  margin-bottom: 15rpx;
+  display: block;
+}
+.reserve-detail.data-v-30560c86 {
+  font-size: 20rpx;
+  color: var(--color-text-secondary);
+  margin-bottom: 10rpx;
+  display: block;
+}
+.reserve-price.data-v-30560c86 {
+  font-size: 24rpx;
+  font-weight: bold;
+  color: #F44336;
+  margin-bottom: 20rpx;
+  display: block;
+  text-align: right;
+}
+
+/* 预约卡片操作按钮 */
+.reserve-actions.data-v-30560c86 {
+  display: flex;
+  gap: 15rpx;
+  justify-content: flex-end;
+}
+.btn-secondary.data-v-30560c86 {
+  padding: 12rpx 24rpx;
+  font-size: 20rpx;
+  border-radius: 8rpx;
+  background-color: #F5F5F5;
+  color: var(--color-text-secondary);
+  transition: all 0.3s;
+  border: 1rpx solid var(--color-border);
+}
+.btn-secondary.data-v-30560c86:active {
+  background-color: #E0E0E0;
+  transform: scale(0.95);
+}
+.btn-primary.data-v-30560c86 {
+  padding: 12rpx 24rpx;
+  font-size: 20rpx;
+  border-radius: 8rpx;
+  background-color: #55AD67;
+  color: #FFFFFF;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+.btn-primary.data-v-30560c86:active {
+  background-color: #4AA35A;
+  transform: scale(0.95);
+}
+.btn-tertiary.data-v-30560c86 {
+  padding: 12rpx 24rpx;
+  font-size: 20rpx;
+  border-radius: 8rpx;
+  background-color: #FFF3E0;
+  color: #FF9800;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+.btn-tertiary.data-v-30560c86:active {
+  background-color: #FFE0B2;
+  transform: scale(0.95);
+}
+
+/* 空状态 */
+.empty-state.data-v-30560c86 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400rpx;
+  color: var(--color-text-auxiliary);
+  font-size: 24rpx;
+  background-color: #FFFFFF;
+  border-radius: 15rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.1);
+}
+
+/* 本月厨艺报告 */
+.cooking-report.data-v-30560c86 {
+  background: linear-gradient(135deg, #55AD67 0%, #7ED957 100%);
+  margin: 0 30rpx 30rpx;
+  padding: 30rpx;
+  border-radius: 15rpx;
+  box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.1);
+}
+.report-title.data-v-30560c86 {
+  font-size: 26rpx;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-bottom: 30rpx;
+  display: block;
+  text-shadow: 0 2rpx 4rpx rgba(0, 0, 0, 0.2);
+}
+.report-stats.data-v-30560c86 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.report-stat.data-v-30560c86 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10rpx;
+}
+.stat-value.data-v-30560c86 {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-shadow: 0 2rpx 4rpx rgba(0, 0, 0, 0.2);
+}
+.stat-label.data-v-30560c86 {
+  font-size: 20rpx;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 1rpx 2rpx rgba(0, 0, 0, 0.2);
+}

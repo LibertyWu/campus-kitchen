@@ -1,0 +1,53 @@
+
+.container.data-v-aed45d07 {
+  background-color: var(--color-bg);
+  min-height: 100vh;
+  padding: 30rpx;
+}
+.order-list.data-v-aed45d07 {
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;
+}
+.order-card.data-v-aed45d07 {
+  background-color: var(--color-card);
+  padding: 20rpx;
+  border-radius: 10rpx;
+}
+.order-title.data-v-aed45d07 {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--color-text-primary);
+  margin-bottom: 10rpx;
+}
+.order-info.data-v-aed45d07 {
+  display: block;
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  margin-bottom: 8rpx;
+}
+.order-status.data-v-aed45d07 {
+  margin-top: 10rpx;
+}
+.status-text.data-v-aed45d07 {
+  font-size: 12px;
+  font-weight: bold;
+}
+.status-pending.data-v-aed45d07 {
+  color: var(--color-primary);
+}
+.status-completed.data-v-aed45d07 {
+  color: #00CC00;
+}
+.status-cancelled.data-v-aed45d07 {
+  color: var(--color-text-auxiliary);
+}
+.empty-state.data-v-aed45d07 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400rpx;
+  color: var(--color-text-auxiliary);
+  font-size: 14px;
+}

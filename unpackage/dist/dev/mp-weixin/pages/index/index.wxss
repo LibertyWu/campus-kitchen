@@ -1,0 +1,282 @@
+
+.container.data-v-1cf27b2a {
+  background-color: var(--color-bg);
+  min-height: 100vh;
+  padding-bottom: 100rpx;
+}
+
+/* 顶部位置和通知 */
+.top-bar.data-v-1cf27b2a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 30rpx;
+  background-color: #FFFFFF;
+  box-shadow: 0 2rpx 4rpx rgba(0, 0, 0, 0.05);
+}
+.location.data-v-1cf27b2a {
+  display: flex;
+  align-items: center;
+  gap: 8rpx;
+}
+.location-icon.data-v-1cf27b2a {
+  font-size: 24rpx;
+}
+.location-text.data-v-1cf27b2a {
+  font-size: 26rpx;
+  color: var(--color-text-primary);
+  font-weight: 500;
+}
+.location-arrow.data-v-1cf27b2a {
+  font-size: 20rpx;
+  color: var(--color-text-secondary);
+}
+.notification.data-v-1cf27b2a {
+  padding: 10rpx;
+}
+.notification-icon.data-v-1cf27b2a {
+  font-size: 32rpx;
+}
+
+/* 搜索栏 */
+.search-bar.data-v-1cf27b2a {
+  display: flex;
+  align-items: center;
+  padding: 20rpx 30rpx;
+  gap: 15rpx;
+  background-color: #FFFFFF;
+  margin-bottom: 20rpx;
+}
+.search-input.data-v-1cf27b2a {
+  flex: 1;
+  background-color: #F5F5F5;
+  border-radius: 25rpx;
+  padding: 0 25rpx;
+  height: 70rpx;
+  display: flex;
+  align-items: center;
+  gap: 10rpx;
+}
+.search-icon.data-v-1cf27b2a {
+  font-size: 24rpx;
+  color: var(--color-text-auxiliary);
+}
+.search-field.data-v-1cf27b2a {
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 24rpx;
+  color: var(--color-text-primary);
+}
+.search-btn.data-v-1cf27b2a {
+  padding: 0 30rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  background-color: var(--color-primary);
+  color: #FFFFFF;
+  border-radius: 25rpx;
+  font-size: 24rpx;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+.search-btn.data-v-1cf27b2a:active {
+  background-color: #4AA35A;
+}
+
+/* 优惠Banner */
+.banner.data-v-1cf27b2a {
+  margin: 0 30rpx 30rpx;
+  background: linear-gradient(135deg, #FF9F43 0%, #FF6B6B 100%);
+  border-radius: 20rpx;
+  overflow: hidden;
+  box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+.banner.data-v-1cf27b2a:active {
+  transform: scale(0.98);
+}
+.banner-content.data-v-1cf27b2a {
+  padding: 40rpx;
+  color: #FFFFFF;
+}
+.banner-title.data-v-1cf27b2a {
+  font-size: 24rpx;
+  opacity: 0.9;
+  margin-bottom: 10rpx;
+  display: block;
+}
+.banner-subtitle.data-v-1cf27b2a {
+  font-size: 36rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+  display: block;
+  text-shadow: 0 2rpx 4rpx rgba(0, 0, 0, 0.2);
+}
+.banner-btn.data-v-1cf27b2a {
+  display: inline-block;
+  padding: 15rpx 30rpx;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #FF6B6B;
+  border-radius: 20rpx;
+  font-size: 24rpx;
+  font-weight: bold;
+  box-shadow: 0 4rpx 8rpx rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+.banner-btn.data-v-1cf27b2a:active {
+  transform: scale(0.95);
+  box-shadow: 0 2rpx 4rpx rgba(0, 0, 0, 0.1);
+}
+
+/* 功能分类 */
+.function-category.data-v-1cf27b2a {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 30rpx 30rpx;
+  background-color: #FFFFFF;
+  margin-bottom: 20rpx;
+  padding-top: 30rpx;
+}
+.category-item.data-v-1cf27b2a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10rpx;
+}
+.category-icon.data-v-1cf27b2a {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50rpx;
+  box-shadow: 0 4rpx 8rpx rgba(0, 0, 0, 0.1);
+}
+.category-icon.chinese.data-v-1cf27b2a {
+  background-color: #E8F5E8;
+  color: #4CAF50;
+}
+.category-icon.baking.data-v-1cf27b2a {
+  background-color: #FFF3E0;
+  color: #FF9800;
+}
+.category-icon.western.data-v-1cf27b2a {
+  background-color: #E3F2FD;
+  color: #2196F3;
+}
+.category-icon.market.data-v-1cf27b2a {
+  background-color: #F3E5F5;
+  color: #9C27B0;
+}
+.category-text.data-v-1cf27b2a {
+  font-size: 22rpx;
+  color: var(--color-text-primary);
+  margin-top: 5rpx;
+}
+
+/* 热门厨房推荐 */
+.recommendation.data-v-1cf27b2a {
+  padding: 30rpx;
+  background-color: #FFFFFF;
+}
+.recommendation-header.data-v-1cf27b2a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25rpx;
+}
+.recommendation-title.data-v-1cf27b2a {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: var(--color-text-primary);
+}
+.recommendation-more.data-v-1cf27b2a {
+  font-size: 22rpx;
+  color: var(--color-text-secondary);
+}
+.kitchen-list.data-v-1cf27b2a {
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;
+}
+.kitchen-card.data-v-1cf27b2a {
+  background-color: #F9F9F9;
+  border-radius: 15rpx;
+  padding: 20rpx;
+  box-shadow: 0 2rpx 4rpx rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+}
+.kitchen-card.data-v-1cf27b2a:active {
+  transform: scale(0.98);
+}
+.kitchen-image.data-v-1cf27b2a {
+  width: 100%;
+  height: 180rpx;
+  background-color: #F0F0F0;
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15rpx;
+}
+.kitchen-image-placeholder.data-v-1cf27b2a {
+  font-size: 80rpx;
+}
+.kitchen-name.data-v-1cf27b2a {
+  font-size: 26rpx;
+  font-weight: bold;
+  color: var(--color-text-primary);
+  margin-bottom: 10rpx;
+  display: block;
+}
+.kitchen-rating.data-v-1cf27b2a {
+  font-size: 22rpx;
+  color: #FF9800;
+  font-weight: 500;
+  margin-right: 10rpx;
+}
+.kitchen-review.data-v-1cf27b2a {
+  font-size: 20rpx;
+  color: var(--color-text-auxiliary);
+}
+
+/* 底部导航栏 */
+.tab-bar.data-v-1cf27b2a {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #FFFFFF;
+  box-shadow: 0 -2rpx 10rpx rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100rpx;
+  z-index: 999;
+}
+.tab-item.data-v-1cf27b2a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rpx;
+  padding: 10rpx;
+}
+.tab-icon.data-v-1cf27b2a {
+  font-size: 36rpx;
+}
+.tab-text.data-v-1cf27b2a {
+  font-size: 20rpx;
+  color: var(--color-text-secondary);
+}
+.tab-item.active .tab-text.data-v-1cf27b2a {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+.kitchen-img.data-v-1cf27b2a {
+  width: 100%;
+  height: 100%;
+  border-radius: 10rpx;
+}
