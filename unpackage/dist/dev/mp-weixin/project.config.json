@@ -33,7 +33,7 @@
   },
   "compileType": "miniprogram",
   "libVersion": "3.14.1",
-  "appid": "wx51c1ca69ad581e70",
+  "appid": "",
   "projectname": "campus-kitchen",
   "condition": {
     "search": {
